@@ -1,0 +1,281 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 70%;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin-bottom: auto;
+}
+
+@font-face {
+  font-family: "GillSansBold";
+  src: url(fonts//GillSansBold.ttc);
+}
+nav {
+  position: relative;
+  max-width: 980px;
+  /*r do a width of 70%*/
+  height: 100px;
+  background-color: white;
+  margin: 0 auto;
+  border-bottom: solid 2px black;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav .logo {
+  position: relative;
+  width: 69px;
+  height: 30px;
+  border: solid 2px black;
+}
+
+nav .logo span {
+  position: absolute;
+  bottom: -5px;
+  width: 60px;
+  color: black;
+  font-family: "Gill Sans Bold";
+}
+
+nav .links {
+  width: 350px;
+  display: flex;
+  justify-content: space-around;
+}
+
+nav .links span a {
+  text-decoration: none;
+  color: black;
+}
+
+nav .links span {
+  color: #79addc;
+}
+
+@media only all and (max-height: 50px) {
+  .nav-wrapper nav {
+    position: left;
+    padding: 0 30px;
+  }
+
+  .nav-wrapper nav .links {
+    display: none;
+  }
+}
+@media only all and (max-width: 980px) {
+  .nav-wrapper nav {
+    padding: 0 30px;
+  }
+
+  .nav-wrapper nav .links {
+    display: none;
+  }
+}
+.doe {
+  max-width: 980px;
+  height: 228px;
+  background-image: linear-gradient(to bottom, rgba(255, 210, 64, 0), rgba(255, 210, 64, 0)), url(../images/blog.jpg);
+  margin: 0 auto;
+  position: relative;
+  bottom: -25px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  align-items: left;
+  justify-content: center;
+  left: 0px;
+  padding: 40px;
+}
+
+.div {
+  height: 500px;
+  background-color: none;
+}
+
+.div2 {
+  height: 500px;
+  background-color: none;
+}
+
+.upcoming-events {
+  align-items: center;
+  padding: 30px;
+}
+
+.upcoming-events .title {
+  margin-top: 10px;
+  height: 35px;
+  width: 392px;
+  border-bottom: solid 2px black;
+  padding-bottom: 10px;
+}
+
+.upcoming-events .title h1 {
+  font-family: "GillScans";
+}
+
+.upcoming-events .events {
+  margin-top: 30px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.upcoming-events .events .event {
+  padding: 20px;
+  width: 210px;
+  height: 124px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.upcoming-events .events .event .date {
+  width: 60px;
+  height: 60px;
+  background-color: #79addc;
+  color: white;
+  display: flex;
+  flex-direction: space-between;
+}
+
+.upcoming-events .events .event .event-detail {
+  width: 140px;
+  font-family: "GillSansReg";
+  font-size: 12px;
+}
+
+.upcoming-events .events .event .event-detail .highlight {
+  color: black;
+  position: relative;
+  bottom: 280px;
+}
+
+.upcoming-events .events .event .event-detail .details {
+  color: #79addc;
+  position: relative;
+  bottom: 280px;
+}
+
+@media (max-width: 980px) {
+  .upcoming-events {
+    flex-wrap: wrap;
+    width: 100%;
+    margin: top left auto;
+    padding: 80px;
+  }
+
+  .upcoming-events .events {
+    flex-direction: column;
+    width: 110px;
+    margin: top left auto;
+    padding: 80px;
+  }
+
+  .upcoming-events .events .event {
+    flex-direction: column;
+    width: 100px;
+    margin: top left auto;
+    padding: 100px;
+  }
+}
+footer {
+  max-width: 100%;
+  font-size: 16px;
+  font-weight: "Ultra Bold" "Regular Italic";
+  height: 100px;
+  margin: 0 auto;
+  background-color: #79addc;
+  bottom: -100px;
+  position: relative;
+}
+
+.words {
+  border-bottom: white;
+  position: relative;
+  width: 109px;
+  height: 42px;
+  border: solid 2px white;
+  left: -680px;
+  bottom: -30px;
+}
+
+.words span {
+  color: white;
+  display: flex;
+  position: relative;
+  left: -20px;
+  bottom: -10px;
+  width: 130px;
+}
+
+footer .fa {
+  padding: 11px;
+  font-size: 12px;
+  max-width: 35px;
+  text-align: center;
+  justify-items: space-around;
+  border-radius: 25%;
+}
+
+footer .fa .fa:hover {
+  opacity: 1;
+  justify-content: space-evenly;
+  position: relative;
+  width: 35px;
+}
+
+footer .fa .fa-facebook {
+  background: white;
+  color: #79addc;
+  position: relative;
+  bottom: 44px;
+  left: 1220px;
+}
+
+footer .fa .fa-instagram {
+  background: white;
+  color: #79addc;
+  position: relative;
+  bottom: 77px;
+  left: 1262px;
+}
+
+footer .fa .fa-twitter {
+  background: white;
+  color: #79addc;
+  position: relative;
+  bottom: 110px;
+  left: 1306px;
+}
+
+footer .Copyright {
+  color: white;
+  position: relative;
+  bottom: 100px;
+  left: 580px;
+  width: 500px;
+  background-color: #79addc;
+}
+
+@media (max-width: 980px) {
+  footer {
+    flex-wrap: wrap;
+    /*if you wantit t in a column as t hte site gets smaller*/
+    margin: top left auto;
+    padding: 80px;
+  }
+}

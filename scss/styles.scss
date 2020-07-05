@@ -1,0 +1,422 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 440px;
+  
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin-bottom: auto;
+}
+
+@font-face {
+  font-family: "GillSansBold";
+  src: url(fonts//GillSansBold.ttc);
+}
+ 
+
+
+.nav {
+  background-image: linear-gradient(to bottom, rgba(255, 210, 64, 0), rgba(255, 210, 64, 0)), url(../images/hero.jpg);
+  margin: 0 auto;
+  height: 578px;
+  background-color: none;
+  position: relative;
+  bottom: 5px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+} 
+
+
+nav {
+  position: relative;
+  /*r do a width of 70%*/
+  height: 100px;
+  margin: 0 auto;
+  border-bottom: solid 2px white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  bottom: 150px;
+}
+
+nav .logo {
+  position: relative;
+  width: 69px;
+  height: 30px;
+  border: solid 2px white;
+ 
+}
+
+nav .logo span {
+  position: absolute;
+  bottom: -5px;
+  width: 60px;
+  color: white; 
+  font-family: "Gill Sans Bold";
+
+}
+
+nav .links {
+  width: 350px;
+  
+  display: flex;
+  justify-content: space-around;
+}
+
+nav .links span a {
+  text-decoration: none;
+  color: black;
+}
+
+nav .links span {
+  color: #79addc;
+}
+
+@media only all and (max-height: 50px) {
+  .nav-wrapper nav {
+    position: left;
+    padding: 0 30px;
+  }
+  .nav-wrapper nav .links {
+    display: none;
+  }
+}
+@media only all and (max-width: 980px) {
+  .nav-wrapper nav {
+    padding: 0 30px;
+  }
+  .nav-wrapper nav .links {
+    display: none;
+  }
+}
+
+.hero1 {
+
+  max-width: 980px;
+  height: 378px;
+  background-color: none;
+  position: relative;
+  bottom: -25px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+}
+
+.hero1 .hero-title {
+  position: relative;
+  color: white;
+  font-size: 28px;
+  font-style: bold;
+  text-align: center;
+  bottom: 100px;
+}
+
+.hero1 .hero-title  span {
+  font-size: 12px;
+  position: relative;
+  bottom: -15px;
+  text-align: center;
+ 
+}
+
+.hero1 button  {
+  font-size: 12px;
+  position: relative;
+  left: 170px;
+  bottom: -55px;
+  text-align: center;
+  display: flex;
+  background-color: #79addc;
+  color: white;
+  width: 70px;
+  height: 35px;
+}
+
+.btn {
+  border-radius: 0px;
+  position: relative;
+  text-align: center;
+  bottom: 4px;
+  left: 550px;
+}
+
+.hero .hero-title {
+  position: relative;
+  color: white;
+  font-size: 28px;
+  font-style: bold;
+  text-align: center;
+  bottom: 300px;
+}
+
+.hero .hero-title  span {
+  font-size: 12px;
+  position: relative;
+  bottom: -15px;
+  width: 100px;
+  text-align: center;
+ 
+}
+
+.hero button  {
+  font-size: 12px;
+  position: relative;
+  left: 170px;
+  position: -50px;
+  text-align: center;
+  display: flex;
+  background-color: #79addc;
+  color: white;
+  width: 70px;
+  height: 35px;
+}
+.travel1 {
+  position: relative;
+  bottom:200px;
+}
+.travel2 {
+  position: relative;
+  bottom: 200px;
+}
+.travel3 {
+  position: relative;
+  bottom: 50px;
+}
+.tour1 {
+  width: 200px;
+  height:301px;
+  background-image: linear-gradient(to bottom, rgba(255, 210, 64, 0), rgba(255, 210, 64, 0)), url(../images/tour-01.jpg);
+  margin: 0 auto;
+  position: relative;
+  bottom: 550px;
+  text-align: center; 
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  bottom: 10px;
+  justify-content: center;
+  left: -300px;
+  color: white;
+}
+
+
+.tour2 {
+  width: 200px;
+  height:301px;
+  background-image: linear-gradient(to bottom, rgba(255, 210, 64, 0), rgba(255, 210, 64, 0)), url(../images/tour-02.jpg);
+  margin: 0 auto;
+  position: relative;
+  bottom: 2050px;
+  text-align: center; 
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  bottom: 310px;
+  justify-content: center;
+  left: 5px;
+  color: white;
+}
+
+.tour3 {
+  width: 200px;
+  height:301px;
+  background-image: linear-gradient(to bottom, rgba(255, 210, 64, 0), rgba(255, 210, 64, 0)), url(../images/tour-03.jpg);
+  margin: 0 auto;
+  position: relative;
+  bottom: 2050px;
+  text-align: center; 
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  color: white;
+  bottom: 715px;
+  justify-content: center;
+  left: 290px;
+  bottom: 560px;
+  
+  
+}
+.booking {
+  
+  max-width: 980px;
+  position: relative;
+  bottom: -40px;
+  margin: 0 auto;
+  text-align: center;
+
+}
+
+/*this div and button are  for the first box*/
+.input-form {
+  bottom: -60px;
+  position: relative;
+  text-align: center;
+  border-radius: 20px;
+  border-color: #79addc;
+}
+
+.drop input {
+  width: 60px;
+  height: 40px
+}
+.drop i:focus { 
+  width: 20px;
+  text-align: center;
+  padding: right 1em;
+}
+.input-wrapper {
+  padding: 15px;
+  padding-left: 35px;
+  text-align: center;
+  
+}
+.j input {
+  position: relative;
+  height: 70px;
+  width: 500px;
+  text-align: center;
+  bottom: -60px;
+}
+
+.input-wrapper3 {
+  padding: 15px;
+  padding-left: 35px;
+  
+}
+button {
+  padding: 8px;
+  position: relative;
+  bottom: -75px;
+  padding-bottom: 15px;
+  border-radius: 20px;
+  text-align: center;
+  width: 480px;
+  color: white;
+  background-color: #79addc;
+}
+
+.form {
+  position: relative;
+  bottom: 600px;
+}
+
+
+
+ /* maxwidth allows for a responsive screen*/
+ 
+ footer  {
+  /*maxwidth allows for a responsive screen*/
+  max-width: 100%;
+  font-size: 16px;
+  font-weight: "Ultra Bold" "Regular Italic";
+  height: 100px;
+  margin: 0 auto;
+  background-color: #79addc;
+  bottom: 300px;
+  position: relative;
+}
+
+.words {
+  border-bottom: black;
+  position: relative;
+  width: 109px;    
+  height: 42px;
+  border: solid 2px white;
+  left: 30px;
+  bottom: -30px;
+}
+.words span {
+  color: white;
+  display: flex;
+  position: relative;
+ text-align: left;
+  bottom: -10px;
+  width: 130px
+}
+
+footer .fa {
+  padding: 11px;
+  font-size: 12px;
+  max-width: 35px;
+  text-align: center;
+  justify-items: space-around;
+  border-radius: 25%;
+ 
+}
+
+footer .fa .fa:hover {
+  opacity: 1;
+  justify-content: space-evenly;
+  position: relative;
+  width: 35px;
+}
+
+footer .fa .fa-facebook {
+  background: white;
+  color: #79addc;
+  position: relative;
+  bottom: 44px;
+  left: 1220px ;
+
+}
+
+footer .fa .fa-instagram {
+  background: white;
+  color: #79addc;
+  position: relative;
+  bottom: 77px;
+  left: 1262px ;
+}
+
+footer .fa .fa-twitter {
+  background: white;
+  color: #79addc;
+  position: relative;
+  bottom: 110px;
+  left: 1306px ;
+}
+
+footer .Copyright {
+  color: white;
+  position: relative;
+  bottom: 100px;
+  left: 600px;
+  width: 500px;
+  background-color: #79addc;
+}
+@media (max-width: 980px) {
+  footer {
+    flex-wrap: wrap;
+    /*if you wantit t in a column as t hte site gets smaller*/
+    width: 80%;
+    margin: top left auto;
+    padding: 80px;
+  }
+}

@@ -1,0 +1,337 @@
+* {
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  html,
+  body {
+    height: 100%;
+  }
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6,
+  p {
+    margin-bottom: auto;
+  }
+  
+  @font-face {
+    font-family: "SemiBold Italic";
+    src: url(fonts//GillSansReg.ttc);
+  }
+  .nav-wrapper {
+    background-color:none;
+    height: 80px;
+    width: 100%;
+  }
+  @media only all and (max-height: 50px) {
+    .nav-wrapper nav {
+      position: left;
+      padding: 0 30px;
+    }
+    }
+    @media only all and (max-width: 980px) {
+        .nav-wrapper nav {
+          padding: 0 30px;
+        }
+    }
+ 
+nav {
+  position: relative;
+max-width: 980px;
+/*r do a width of 70%*/
+height: 100px;
+background-color: white;
+margin: 0 auto;
+border-bottom: solid 2px black;
+display: flex;
+justify-content: space-between;
+align-items: center;
+}
+
+nav .logo {
+position: relative;
+width: 69px;
+height: 30px;
+border: solid 2px black;
+
+}
+
+nav .logo span {
+position: absolute;
+bottom: -5px;
+width: 60px;
+color: black; 
+font-family: "Gill Sans Bold";
+
+}
+
+nav .links {
+width: 350px;
+
+display: flex;
+justify-content: space-around;
+}
+
+nav .links span a {
+text-decoration: none;
+color: black;
+}
+
+nav .links span {
+color: #79addc;
+}
+ 
+
+.hero1 {
+ 
+  max-width: 980px;
+  height: 378px;
+  background-image: linear-gradient(to bottom, rgba(29, 29, 28, 0.384), rgba(29, 29, 28, 0.384)), url(../images/tour-08.jpg);
+  margin: 0 auto;
+  position: relative;
+  bottom: -25px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+}
+
+
+.hero .hero-title h2{
+  position: relative;
+  text-decoration: underline ;
+  font-size: 48px;
+  font-style: bold;
+  text-align: left;
+  
+}
+
+
+.hero .hero-title {
+  position: relative;
+  font-size: 18px;
+  text-align: left;
+  padding-bottom: 10px;
+}
+.hero1 .hero1-title h1{
+  position: relative;
+  color: white;
+  font-size: 60px;
+  font-style: bold;
+  text-align: center;
+  bottom: 100px;
+}
+.hero1 .hero1-title p{
+  position: relative;
+  color: white;
+  font-size: 18px;
+  font-style: bold;
+  text-align:  right;
+  bottom: 100px;
+justify-content: baseline;
+}
+
+.hero1 .hero-title  span {
+  font-size: 12px;
+  position: relative;
+  bottom: -15px;
+  text-align: center;
+ 
+}
+h2 {
+  text-decoration: underline -5px;
+   
+}
+h1 {
+  color:white;
+}
+
+
+.hero button  {
+  font-size: 12px;
+  position: relative;
+  left: 170px;
+  border-radius: 20px;
+  text-align: center;
+  display: flex;
+  background-color: #79addc;
+  color: white;
+  width: 100px;
+  height: 35px;
+  justify-content: center;
+}
+.hero {max-width: 980px;}
+.hero-title {
+  font-family: "Proxima Nova ScOsf Extra Condensed";
+  font-size: 30px;
+  bottom: -5px;
+  position: relative;
+  padding-top: 20px;
+  padding-bottom: 10px;
+  justify-content: space-between space-around;
+}
+.pics {
+max-width: 980px;
+height: 378px; 
+background-color: white;
+}
+.tours {
+    height: 600px;
+    background-color: white;
+}
+.pics .tour1 {
+  width: 298px;
+height: 347px;
+  background-image: linear-gradient(to bottom, rgba(255, 210, 64, 0), rgba(255, 210, 64, 0)), url(../images/canada-tour-01.jpg);
+  margin: 0 auto;
+  position: relative;
+  bottom: -50px;
+  left: -342px; 
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+}
+
+.pics .tour-1 {
+width: 298px;
+height: 347px;
+background-image: linear-gradient(to bottom, rgba(255, 210, 64, 0), rgba(255, 210, 64, 0)), url(../images/canada-tour-02.jpg);
+margin: 0 auto;
+position: relative;
+bottom: 550px;
+background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  }
+
+.tour--1 {
+  width: 298px;
+  height: 347px;
+  background-image: linear-gradient(to bottom, rgba(255, 210, 64, 0), rgba(255, 210, 64, 0)), url(../images/canada-tour-03.jpg);
+  margin: 0 auto;
+  position: relative;
+  bottom: 900px;
+
+  left: 338px; 
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+}
+
+  footer  {
+    /*maxwidth allows for a responsive screen*/
+    max-width: 100%;
+    font-size: 16px;
+    font-weight: "Ultra Bold" "Regular Italic";
+    height: 100px;
+    margin: 0 auto;
+    background-color: #79addc;
+    bottom: -100px;
+    position: relative;
+  }
+  
+  .words {
+    border-bottom: white;
+    position: relative;
+    width: 109px;    
+    height: 42px;
+    border: solid 2px white;
+    left: -680px;
+    bottom: -30px;
+  }
+  .words span {
+    color: white;
+    display: flex;
+    position: relative;
+    left: -20px;
+    bottom: -10px;
+    width: 130px
+  }
+  
+  footer .fa {
+    padding: 11px;
+    font-size: 12px;
+    max-width: 35px;
+    text-align: center;
+    justify-items: space-around;
+    border-radius: 25%;
+   
+  }
+  
+  footer .fa .fa:hover {
+    opacity: 1;
+    justify-content: space-evenly;
+    position: relative;
+    width: 35px;
+  }
+  
+  footer .fa .fa-facebook {
+    background: white;
+    color: #79addc;
+    position: relative;
+    bottom: 44px;
+    left: 1220px ;
+  
+  }
+  
+  footer .fa .fa-instagram {
+    background: white;
+    color: #79addc;
+    position: relative;
+    bottom: 77px;
+    left: 1262px ;
+  }
+  
+  footer .fa .fa-twitter {
+    background: white;
+    color: #79addc;
+    position: relative;
+    bottom: 110px;
+    left: 1306px ;
+  }
+  
+  footer .Copyright {
+    color: white;
+    position: relative;
+    bottom: 10px;
+    left: 580px;
+    width: 500px;
+    
+  }
+  @media (max-width: 980px) {
+    footer {
+      flex-wrap: wrap;
+      /*if you wantit t in a column as t hte site gets smaller*/
+      width: 100%;
+      margin: bottom left auto;
+      padding: 0px; }
+    }
+    @media (max-width: 980px) {
+        nav {
+          flex-wrap: wrap;
+          /*if you wantit t in a column as t hte site gets smaller*/
+          width: 100%;
+          margin:  auto;
+          padding: 0px;
+        }
+    
+}
+   

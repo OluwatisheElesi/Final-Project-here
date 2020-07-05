@@ -1,0 +1,404 @@
+* {
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  html,
+  body {
+    height: 100%;
+  }
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6,
+  p {
+    margin-bottom: auto;
+  }
+  
+  @font-face {
+    font-family: "SemiBold Italic";
+    src: url(fonts//GillSansReg.ttc);
+  }
+  .nav-wrapper {
+    background-color:none;
+    height: 80px;
+    width: 100%;
+  }
+  @media only all and (max-height: 50px) {
+    .nav-wrapper nav {
+      position: left;
+      padding: 0 30px;
+    }
+    }
+    @media only all and (max-width: 980px) {
+        .nav-wrapper nav {
+          padding: 0 30px;
+        }
+    }
+ 
+nav {
+  position: relative;
+max-width: 980px;
+/*r do a width of 70%*/
+height: 100px;
+background-color: white;
+margin: 0 auto;
+border-bottom: solid 2px black;
+display: flex;
+justify-content: space-between;
+align-items: center;
+}
+
+nav .logo {
+position: relative;
+width: 69px;
+height: 30px;
+border: solid 2px black;
+
+}
+
+nav .logo span {
+position: absolute;
+bottom: -5px;
+width: 60px;
+color: black; 
+font-family: "Gill Sans Bold";
+
+}
+
+nav .links {
+width: 350px;
+
+display: flex;
+justify-content: space-around;
+}
+
+nav .links span a {
+text-decoration: none;
+color: black;
+}
+
+nav .links span {
+color: #79addc;
+}
+
+@media only all and (max-height: 50px) {
+  .nav-wrapper nav {
+    position: left;
+    padding: 0 30px;
+  }
+  .nav-wrapper nav .links {
+    display: none;
+  }
+}
+@media only all and (max-width: 980px) {
+  .nav-wrapper nav {
+    padding: 0 30px;
+  }
+  .nav-wrapper nav .links {
+    display: none;
+  }
+}
+
+  .hero {
+    max-width: 981px;
+    height: 200px;
+    background-image: linear-gradient(to bottom, rgba(255, 210, 64, 0), rgba(255, 210, 64, 0)), url(../images/tour-01.jpg);
+    margin: 0 auto;
+    position: relative;
+    bottom: -12px;
+    background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  }
+  
+  .hero .hero-title {
+    position: relative;
+    bottom: -17px;
+    color: white;
+    left: 350px;
+    font-size: 60px;
+
+  }
+  
+  .hero .hero-title .title-i {
+    font-size: 30px;
+    line-height: 0;
+    margin: 70px;
+  }
+  
+  
+  .tours {
+      height: 600px;
+      background-color: white;
+  }
+  .country {
+    font-size: 60px;
+    color:white;
+}
+
+ .cost {
+    font-size: 30px;
+    color: white;
+}
+
+.button {
+    background-color: #79addc;
+    color: white;
+    font-weight: 25px ;
+    border-radius: 20px;
+    height: 40px;
+    width: 133px;
+    border-color: #79addc;
+    position: relative;
+    bottom: -120px;
+    text-align: center;
+    left: -90px;
+}
+
+  .tour1 {
+    width: 298px;
+    height: 347px;
+    background-image: linear-gradient(to bottom, rgba(255, 210, 64, 0), rgba(255, 210, 64, 0)), url(../images/tour-01.jpg);
+    margin: 0 auto;
+    position: relative;
+    bottom: 550px;
+    left: -320px; 
+    background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  }
+
+  .tour2 {
+    width: 298px;
+  height: 347px;
+    background-image: linear-gradient(to bottom, rgba(255, 210, 64, 0), rgba(255, 210, 64, 0)), url(../images/tour-04.jpg);
+    margin: 0 auto;
+    position: relative;
+    bottom: 520px;
+    left: -320px;  
+    background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  }
+  .tour3 {
+    width: 298px;
+  height: 347px;
+    background-image: linear-gradient(to bottom, rgba(255, 210, 64, 0), rgba(255, 210, 64, 0)), url(../images/tour-07.jpg);
+    margin: 0 auto;
+    position: relative;
+    bottom: 480px;
+    left: -320px; 
+    background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  }
+
+ 
+.tour-1 {
+    width: 298px;
+    height: 347px;
+  background-image: linear-gradient(to bottom, rgba(255, 210, 64, 0), rgba(255, 210, 64, 0)), url(../images/tour-02.jpg);
+  margin: 0 auto;
+  position: relative;
+  bottom: 1594px;
+  left: 0px; 
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.tour-2 {
+    width: 298px;
+    height: 347px;
+  background-image: linear-gradient(to bottom, rgba(255, 210, 64, 0), rgba(255, 210, 64, 0)), url(../images/tour-05.jpg);
+  margin: 0 auto;
+  position: relative;
+  bottom: 1560px;
+  left: 0px;  
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.tour-3 {
+    width: 298px;
+    height: 347px;
+  background-image: linear-gradient(to bottom, rgba(255, 210, 64, 0), rgba(255, 210, 64, 0)), url(../images/tour-08.jpg);
+  margin: 0 auto;
+  position: relative;
+  bottom: 1518px;
+  left: 0px;  
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.tour-4 {
+    width: 298px;
+    height: 347px;
+  background-image: linear-gradient(to bottom, rgba(255, 210, 64, 0), rgba(255, 210, 64, 0)), url(../images/tour-03.jpg);
+  margin: 0 auto;
+  position: relative;
+  bottom: 2637px;
+  left: 320px;  
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.tour-5 {
+    width: 298px;
+    height: 347px;
+  background-image: linear-gradient(to bottom, rgba(255, 210, 64, 0), rgba(255, 210, 64, 0)), url(../images/tour-06.jpg);
+  margin: 0 auto;
+  position: relative;
+  bottom: 2637px;
+  left: 320px;  
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.tour-6 {
+    width: 298px;
+    height: 347px;
+  background-image: linear-gradient(to bottom, rgba(255, 210, 64, 0), rgba(255, 210, 64, 0)), url(../images/tour-09.jpg);
+  margin: 0 auto;
+  position: relative;
+  bottom: 2579px;
+  left: 320px; 
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+  footer  {
+    /*maxwidth allows for a responsive screen*/
+    max-width: 100%;
+    font-size: 16px;
+    font-weight: "Ultra Bold" "Regular Italic";
+    height: 100px;
+    margin: 0 auto;
+    background-color: #79addc;
+    bottom: 1480px;
+    position: relative;
+  }
+  
+  .words {
+    border-bottom: white;
+    position: relative;
+    width: 109px;    
+    height: 42px;
+    border: solid 2px white;
+    left: -680px;
+    bottom: -30px;
+    
+  }
+  .words span {
+    color: white;
+    display: flex;
+    position: relative;
+    bottom: -10px;
+    width: 130px
+  }
+  
+  footer .fa {
+    padding: 11px;
+    font-size: 12px;
+    max-width: 35px;
+    text-align: center;
+    justify-items: space-around;
+    border-radius: 25%;
+   
+  }
+  
+  footer .fa .fa:hover {
+    opacity: 1;
+    justify-content: space-evenly;
+    position: relative;
+    width: 35px;
+  }
+  
+  footer .fa .fa-facebook {
+    background: white;
+    color: #79addc;
+    position: relative;
+    bottom: 44px;
+    left: 1220px ;
+  
+  }
+  
+  footer .fa .fa-instagram {
+    background: white;
+    color: #79addc;
+    position: relative;
+    bottom: 77px;
+    left: 1262px ;
+  }
+  
+  footer .fa .fa-twitter {
+    background: white;
+    color: #79addc;
+    position: relative;
+    bottom: 110px;
+    left: 1306px ;
+  }
+  
+  footer .Copyright {
+    color: white;
+    position: relative;
+    bottom: 10px;
+    text-align: center;
+    width: 500px;
+
+    
+  }
+  @media (max-width: 980px) {
+    footer {
+      flex-wrap: wrap;
+      /*if you wantit t in a column as t hte site gets smaller*/
+      width: 100%;
+      margin: bottom left auto;
+      padding: 0px; }
+    }
+    @media (max-width: 980px) {
+        nav {
+          flex-wrap: wrap;
+          /*if you wantit t in a column as t hte site gets smaller*/
+          width: 100%;
+          margin:  auto;
+          padding: 0px;
+        }
+    
+}
+   

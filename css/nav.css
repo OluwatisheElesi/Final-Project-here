@@ -1,0 +1,1420 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin-bottom: 16px;
+}
+
+@font-face {
+  font-family: "GillSansReg";
+  src: url(fonts//GillSansReg.ttc);
+}
+@font-face {
+  font-family: "Norican";
+  src: url(fonts//Norican.ttc);
+}
+footer {
+  max-width: 980px;
+  height: 100px;
+  background-color: #79ADDC;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 70%;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin-bottom: auto;
+}
+
+@font-face {
+  font-family: "GillSansBold";
+  src: url(fonts//GillSansBold.ttc);
+}
+nav {
+  position: relative;
+  max-width: 980px;
+  /*r do a width of 70%*/
+  height: 100px;
+  background-color: white;
+  margin: 0 auto;
+  border-bottom: solid 2px black;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav .logo {
+  position: relative;
+  width: 69px;
+  height: 60px;
+  border: solid 2px black;
+}
+
+nav .logo span {
+  position: absolute;
+  bottom: -5px;
+  width: 40px;
+  color: black;
+}
+
+nav .links {
+  width: 350px;
+  display: flex;
+  justify-content: space-around;
+}
+
+nav .links span a {
+  text-decoration: none;
+  color: black;
+}
+
+nav .links span {
+  color: red;
+}
+
+/*.travel nav .logo {
+  position: relative;
+  width: 69px;
+  height: 60px;
+  border: solid 2px whitesmoke;
+  font-family: "Gill Sans Bold";
+  font-size: 20px;
+  font-style: bold;
+  left: 50px;
+  .travel nav .logo span {
+  position: absolute;
+  bottom: -8px;
+  width: 40px;
+  color: white;
+  left: 0px;
+}
+
+.travel nav .links {
+  width: 350px;
+  display: flex;
+  justify-content: space-around;
+  position: relative;
+  left: 900px;
+  color: white;
+  padding: top;
+}
+
+.travel nav .links span {
+  font: white;
+  color: white;
+  position: absolute;
+  padding: space-evenly;
+}
+
+.travel nav .links a {
+  color: white;
+}*/
+.hero .hero {
+  max-width: 980px;
+  height: 378px;
+  background-image: linear-gradient(to bottom, rgba(255, 210, 64, 0), rgba(255, 210, 64, 0)), url(../images/1.png);
+  margin: 0 auto;
+  position: relative;
+  bottom: -90px;
+}
+
+.hero .hero-title {
+  position: relative;
+  left: 500px;
+  color: black;
+  font-size: 28px;
+  font-style: bold;
+  bottom: -60px;
+}
+
+.hero .hero-title p {
+  font-size: 12px;
+  position: relative;
+  padding: center;
+  bottom: -15px;
+  left: -180px;
+  display: flex;
+}
+
+.hero .hero-title p1 {
+  font-size: 12px;
+  position: relative;
+  padding: center;
+  bottom: -15px;
+  left: -30px;
+  display: flex;
+}
+
+/*this div and button are  for the first box*/
+div {
+  padding: 15px;
+  padding-left: 35px;
+}
+
+button {
+  padding: 8px;
+  position: relative;
+  bottom: -47px;
+  padding-left: 15px;
+  width: 80px;
+  color: white;
+  background-color: #79addc;
+}
+
+form {
+  padding-left: center;
+}
+
+.event-images {
+  position: relative;
+}
+
+.imageOne {
+  height: 200px;
+  width: 150px;
+  position: relative;
+  background-image: url(../images/eye.jpg);
+  left: 440px;
+  bottom: -16px;
+}
+
+.imageOne p, span {
+  position: relative;
+  bottom: -5px;
+  left: 25px;
+}
+
+.imageTwo {
+  height: 60px;
+  width: 40px;
+}
+
+.imageThree {
+  position: relative;
+  height: 60px;
+  width: 40px;
+}
+
+footer {
+  /*maxwidth allows for a responsive screen*/
+  max-width: 100%;
+  font-size: 16px;
+  font-weight: "Ultra Bold" "Regular Italic";
+  height: 100px;
+  margin: 0 auto;
+  background-color: #79addc;
+  bottom: -100px;
+  position: relative;
+}
+
+.words {
+  border-bottom: white;
+  position: relative;
+  width: 109px;
+  height: 42px;
+  border: solid 2px white;
+  left: -680px;
+  bottom: -30px;
+}
+
+.words span {
+  color: white;
+  display: flex;
+  position: relative;
+  left: -20px;
+  bottom: -10px;
+  width: 130px;
+}
+
+footer .fa {
+  padding: 11px;
+  font-size: 12px;
+  max-width: 35px;
+  text-align: center;
+  justify-items: space-around;
+  border-radius: 25%;
+}
+
+footer .fa .fa:hover {
+  opacity: 1;
+  justify-content: space-evenly;
+  position: relative;
+  width: 35px;
+}
+
+footer .fa .fa-facebook {
+  background: white;
+  color: #79addc;
+  position: relative;
+  bottom: 44px;
+  left: 1220px;
+}
+
+footer .fa .fa-instagram {
+  background: white;
+  color: #79addc;
+  position: relative;
+  bottom: 77px;
+  left: 1262px;
+}
+
+footer .fa .fa-twitter {
+  background: white;
+  color: #79addc;
+  position: relative;
+  bottom: 110px;
+  left: 1306px;
+}
+
+footer .Copyright {
+  color: white;
+  position: relative;
+  bottom: 100px;
+  left: 580px;
+  width: 500px;
+  background-color: #79addc;
+}
+
+@media (max-width: 980px) {
+  footer {
+    flex-wrap: wrap;
+    /*if you wantit t in a column as t hte site gets smaller*/
+    width: 80%;
+    margin: top left auto;
+    padding: 80px;
+  }
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin-bottom: 16px;
+}
+
+@font-face {
+  font-family: "SemiBold Italic";
+  src: url(fonts//GillSansReg.ttc);
+}
+.nav-wrapper {
+  background-color: none;
+  height: 80px;
+  width: 100%;
+}
+
+nav {
+  max-width: 980px;
+  /*r do a width of 70%*/
+  height: 150px;
+  background-color: white;
+  margin: 0 auto;
+  border-bottom: solid 2px black;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav .logo {
+  position: relative;
+  width: 69px;
+  height: 30px;
+  border: solid 2px black;
+}
+
+nav .logo span {
+  position: relative;
+  bottom: -6px;
+  width: 80px;
+  color: black;
+  font-size: 20px;
+  font-weight: 20px;
+}
+
+nav .links {
+  width: 350px;
+  display: flex;
+  justify-content: space-around;
+}
+
+nav .links span a {
+  text-decoration: none;
+  color: black;
+}
+
+nav .links span {
+  color: #79addc;
+}
+
+.history {
+  max-width: 980px;
+  min-height: 378px;
+  margin: 0 auto 0 auto;
+  position: relative;
+  bottom: 30px;
+  font-weight: 0;
+}
+
+h1 {
+  max-width: 980px;
+  min-height: 378px;
+  margin: 0 auto 0 auto;
+  position: relative;
+  bottom: -260px;
+  font-size: 80px;
+  -webkit-text-decoration: 70% underline;
+          text-decoration: 70% underline;
+}
+
+.words p {
+  font-size: 16px;
+  position: relative;
+  bottom: -240px;
+  text-decoration: underline;
+}
+
+.history .history-title {
+  text-transform: uppercase;
+  font-size: 40px;
+  font-weight: bold;
+  border-bottom: solid 2px #070404;
+  padding-right: 30px;
+  padding-bottom: 10px;
+  padding-top: 15;
+  position: relative;
+  bottom: -80px;
+  font-size: 30px;
+}
+
+.history .history-title3 p {
+  position: relative;
+  font-size: 16px;
+  margin-top: 50px;
+  bottom: 450px;
+  padding-top: 60px;
+  width: 800px;
+}
+
+.history .history-title1 p {
+  margin-top: 50px;
+  position: relative;
+  bottom: -200px;
+  padding-top: 60px;
+  font-size: 16px;
+  width: 450px;
+  left: 300px;
+}
+
+.history .history-title2 p {
+  margin-top: 50px;
+  position: relative;
+  bottom: -200px;
+  padding-top: 60px;
+  font-size: 16px;
+  width: 450px;
+  left: 300px;
+}
+
+.hero .hero-title span {
+  width: 250px;
+  height: 180px;
+  background-image: linear-gradient(to bottom, rgba(255, 210, 64, 0), rgba(255, 210, 64, 0)), url(../images/about-client-01-original.jpg);
+  margin: 0 auto;
+  position: relative;
+  bottom: 330px;
+  left: -380px;
+}
+
+.hero .hero-title2 span {
+  width: 250px;
+  height: 180px;
+  background-image: linear-gradient(to bottom, rgba(255, 210, 64, 0), rgba(255, 210, 64, 0)), url(../images/about-client-02.jpg);
+  margin: 0 auto;
+  position: relative;
+  bottom: 260px;
+  left: -380px;
+}
+
+footer {
+  /*maxwidth allows for a responsive screen*/
+  max-width: 100%;
+  font-size: 16px;
+  font-weight: "Ultra Bold" "Regular Italic";
+  height: 100px;
+  margin: 0 auto;
+  background-color: #79addc;
+  bottom: -100px;
+  position: relative;
+}
+
+.words {
+  border-bottom: black;
+  position: relative;
+  width: 109px;
+  height: 42px;
+  border: solid 2px white;
+  left: 30px;
+  bottom: -30px;
+}
+
+.words span {
+  color: white;
+  display: flex;
+  position: relative;
+  left: 10px;
+  bottom: -10px;
+  width: 130px;
+}
+
+footer .fa {
+  padding: 11px;
+  font-size: 12px;
+  max-width: 35px;
+  text-align: center;
+  justify-items: space-around;
+  border-radius: 25%;
+}
+
+footer .fa .fa:hover {
+  opacity: 1;
+  justify-content: space-evenly;
+  position: relative;
+  width: 35px;
+}
+
+footer .fa .fa-facebook {
+  background: white;
+  color: #79addc;
+  position: relative;
+  bottom: 44px;
+  left: 1220px;
+}
+
+footer .fa .fa-instagram {
+  background: white;
+  color: #79addc;
+  position: relative;
+  bottom: 77px;
+  left: 1262px;
+}
+
+footer .fa .fa-twitter {
+  background: white;
+  color: #79addc;
+  position: relative;
+  bottom: 110px;
+  left: 1306px;
+}
+
+footer .Copyright {
+  color: white;
+  position: relative;
+  bottom: 100px;
+  left: 580px;
+  width: 500px;
+  background-color: #79addc;
+}
+
+@media (max-width: 980px) {
+  footer {
+    flex-wrap: wrap;
+    /*if you wantit t in a column as t hte site gets smaller*/
+    width: 80%;
+    margin: top left auto;
+    padding: 80px;
+  }
+}
+* {
+  margin: 0 auto;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin-bottom: auto;
+}
+
+@font-face {
+  font-family: "SemiBold Italic";
+  src: url(fonts//GillSansReg.ttc);
+}
+.nav-wrapper {
+  background-color: none;
+  height: 80px;
+  width: 100%;
+}
+
+@media only all and (max-height: 50px) {
+  .nav-wrapper nav {
+    position: left;
+    padding: 0 30px;
+  }
+}
+@media only all and (max-width: 980px) {
+  .nav-wrapper nav {
+    padding: 0 30px;
+  }
+}
+nav {
+  position: relative;
+  max-width: 980px;
+  /*r do a width of 70%*/
+  height: 150px;
+  background-color: white;
+  margin: 0 auto;
+  border-bottom: solid 2px black;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav .logo {
+  position: relative;
+  width: 69px;
+  height: 30px;
+  border: solid 2px black;
+}
+
+nav .logo span {
+  position: relative;
+  bottom: -6px;
+  width: 80px;
+  color: black;
+  font-size: 20px;
+  font-weight: 20px;
+}
+
+nav .links {
+  width: 350px;
+  display: flex;
+  justify-content: space-around;
+}
+
+nav .links span a {
+  text-decoration: none;
+  color: black;
+}
+
+nav .links span {
+  color: red;
+}
+
+.hero {
+  max-width: 981px;
+  height: 200px;
+  background-image: linear-gradient(to bottom, rgba(255, 210, 64, 0), rgba(255, 210, 64, 0)), url(../images/tour-01.jpg);
+  margin: 0 auto;
+  position: relative;
+  bottom: -12px;
+}
+
+.hero .hero-title {
+  position: relative;
+  bottom: -17px;
+  color: white;
+  left: 350px;
+  font-size: 60px;
+}
+
+.hero .hero-title .title-i {
+  font-size: 30px;
+  line-height: 0;
+  margin: 70px;
+}
+
+.tours {
+  height: 600px;
+  background-color: white;
+}
+
+.country {
+  font-size: 60px;
+  color: white;
+}
+
+.cost {
+  font-size: 30px;
+  color: white;
+}
+
+.button {
+  background-color: #79addc;
+  color: white;
+  font-weight: 25px;
+  border-radius: 20px;
+  height: 40px;
+  width: 133px;
+  border-color: #79addc;
+  position: relative;
+  bottom: -120px;
+  left: 60px;
+}
+
+.tour1 {
+  width: 298px;
+  height: 347px;
+  background-image: linear-gradient(to bottom, rgba(255, 210, 64, 0), rgba(255, 210, 64, 0)), url(../images/tour-01.jpg);
+  margin: 0 auto;
+  position: relative;
+  bottom: 550px;
+  left: -320px;
+}
+
+.tour2 {
+  width: 298px;
+  height: 347px;
+  background-image: linear-gradient(to bottom, rgba(255, 210, 64, 0), rgba(255, 210, 64, 0)), url(../images/tour-04.jpg);
+  margin: 0 auto;
+  position: relative;
+  bottom: 520px;
+  left: -320px;
+}
+
+.tour3 {
+  width: 298px;
+  height: 347px;
+  background-image: linear-gradient(to bottom, rgba(255, 210, 64, 0), rgba(255, 210, 64, 0)), url(../images/tour-07.jpg);
+  margin: 0 auto;
+  position: relative;
+  bottom: 480px;
+  left: -320px;
+}
+
+.tour-1 {
+  width: 298px;
+  height: 347px;
+  background-image: linear-gradient(to bottom, rgba(255, 210, 64, 0), rgba(255, 210, 64, 0)), url(../images/tour-02.jpg);
+  margin: 0 auto;
+  position: relative;
+  bottom: 1594px;
+  left: 0px;
+}
+
+.tour-2 {
+  width: 298px;
+  height: 347px;
+  background-image: linear-gradient(to bottom, rgba(255, 210, 64, 0), rgba(255, 210, 64, 0)), url(../images/tour-05.jpg);
+  margin: 0 auto;
+  position: relative;
+  bottom: 1560px;
+  left: 0px;
+}
+
+.tour-3 {
+  width: 298px;
+  height: 347px;
+  background-image: linear-gradient(to bottom, rgba(255, 210, 64, 0), rgba(255, 210, 64, 0)), url(../images/tour-08.jpg);
+  margin: 0 auto;
+  position: relative;
+  bottom: 1518px;
+  left: 0px;
+}
+
+.tour-4 {
+  width: 298px;
+  height: 347px;
+  background-image: linear-gradient(to bottom, rgba(255, 210, 64, 0), rgba(255, 210, 64, 0)), url(../images/tour-03.jpg);
+  margin: 0 auto;
+  position: relative;
+  bottom: 2637px;
+  left: 320px;
+}
+
+.tour-5 {
+  width: 298px;
+  height: 347px;
+  background-image: linear-gradient(to bottom, rgba(255, 210, 64, 0), rgba(255, 210, 64, 0)), url(../images/tour-06.jpg);
+  margin: 0 auto;
+  position: relative;
+  bottom: 2637px;
+  left: 320px;
+}
+
+.tour-6 {
+  width: 298px;
+  height: 347px;
+  background-image: linear-gradient(to bottom, rgba(255, 210, 64, 0), rgba(255, 210, 64, 0)), url(../images/tour-09.jpg);
+  margin: 0 auto;
+  position: relative;
+  bottom: 2579px;
+  left: 320px;
+}
+
+footer {
+  /*maxwidth allows for a responsive screen*/
+  max-width: 100%;
+  font-size: 16px;
+  font-weight: "Ultra Bold" "Regular Italic";
+  height: 100px;
+  margin: 0 auto;
+  background-color: #79addc;
+  bottom: 1480px;
+  position: relative;
+}
+
+.words {
+  border-bottom: white;
+  position: relative;
+  width: 109px;
+  height: 42px;
+  border: solid 2px white;
+  left: -680px;
+  bottom: -30px;
+}
+
+.words span {
+  color: white;
+  display: flex;
+  position: relative;
+  left: -20px;
+  bottom: -10px;
+  width: 130px;
+}
+
+footer .fa {
+  padding: 11px;
+  font-size: 12px;
+  max-width: 35px;
+  text-align: center;
+  justify-items: space-around;
+  border-radius: 25%;
+}
+
+footer .fa .fa:hover {
+  opacity: 1;
+  justify-content: space-evenly;
+  position: relative;
+  width: 35px;
+}
+
+footer .fa .fa-facebook {
+  background: white;
+  color: #79addc;
+  position: relative;
+  bottom: 44px;
+  left: 1220px;
+}
+
+footer .fa .fa-instagram {
+  background: white;
+  color: #79addc;
+  position: relative;
+  bottom: 77px;
+  left: 1262px;
+}
+
+footer .fa .fa-twitter {
+  background: white;
+  color: #79addc;
+  position: relative;
+  bottom: 110px;
+  left: 1306px;
+}
+
+footer .Copyright {
+  color: white;
+  position: relative;
+  bottom: 10px;
+  left: 580px;
+  width: 500px;
+}
+
+@media (max-width: 980px) {
+  footer {
+    flex-wrap: wrap;
+    /*if you wantit t in a column as t hte site gets smaller*/
+    width: 100%;
+    margin: bottom left auto;
+    padding: 0px;
+  }
+}
+@media (max-width: 980px) {
+  nav {
+    flex-wrap: wrap;
+    /*if you wantit t in a column as t hte site gets smaller*/
+    width: 100%;
+    margin: auto;
+    padding: 0px;
+  }
+}
+* {
+  margin: 0 auto;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin-bottom: auto;
+}
+
+@font-face {
+  font-family: "SemiBold Italic";
+  src: url(fonts//GillSansReg.ttc);
+}
+.nav-wrapper {
+  background-color: none;
+  height: 80px;
+  width: 100%;
+}
+
+@media only all and (max-height: 50px) {
+  .nav-wrapper nav {
+    position: left;
+    padding: 0 30px;
+  }
+}
+@media only all and (max-width: 980px) {
+  .nav-wrapper nav {
+    padding: 0 30px;
+  }
+}
+nav {
+  position: relative;
+  max-width: 980px;
+  /*r do a width of 70%*/
+  height: 150px;
+  background-color: white;
+  margin: 0 auto;
+  border-bottom: solid 2px black;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav .logo {
+  position: relative;
+  width: 69px;
+  height: 30px;
+  border: solid 2px black;
+}
+
+nav .logo span {
+  position: relative;
+  bottom: -6px;
+  width: 80px;
+  color: black;
+  font-size: 20px;
+  font-weight: 20px;
+}
+
+nav .links {
+  width: 350px;
+  display: flex;
+  justify-content: space-around;
+}
+
+nav .links span a {
+  text-decoration: none;
+  color: black;
+}
+
+nav .links span {
+  color: red;
+}
+
+.hero {
+  max-width: 981px;
+  height: 200px;
+  background-image: linear-gradient(to bottom, rgba(255, 210, 64, 0), rgba(255, 210, 64, 0)), url(../images/tour-01.jpg);
+  margin: 0 auto;
+  position: relative;
+  bottom: -12px;
+}
+
+.hero .hero-title {
+  position: relative;
+  bottom: -17px;
+  color: white;
+  left: 350px;
+  font-size: 60px;
+}
+
+.hero .hero-title .title-i {
+  font-size: 30px;
+  line-height: 0;
+  margin: 70px;
+}
+
+.tours {
+  height: 600px;
+  background-color: white;
+}
+
+.country {
+  font-size: 60px;
+  color: white;
+}
+
+.cost {
+  font-size: 30px;
+  color: white;
+}
+
+.button {
+  background-color: #79addc;
+  color: white;
+  font-weight: 25px;
+  border-radius: 20px;
+  height: 40px;
+  width: 133px;
+  border-color: #79addc;
+  position: relative;
+  bottom: -120px;
+  left: 60px;
+}
+
+.tour1 {
+  width: 298px;
+  height: 347px;
+  background-image: linear-gradient(to bottom, rgba(255, 210, 64, 0), rgba(255, 210, 64, 0)), url(../images/tour-01.jpg);
+  margin: 0 auto;
+  position: relative;
+  bottom: 550px;
+  left: -320px;
+}
+
+.tour2 {
+  width: 298px;
+  height: 347px;
+  background-image: linear-gradient(to bottom, rgba(255, 210, 64, 0), rgba(255, 210, 64, 0)), url(../images/tour-04.jpg);
+  margin: 0 auto;
+  position: relative;
+  bottom: 520px;
+  left: -320px;
+}
+
+.tour3 {
+  width: 298px;
+  height: 347px;
+  background-image: linear-gradient(to bottom, rgba(255, 210, 64, 0), rgba(255, 210, 64, 0)), url(../images/tour-07.jpg);
+  margin: 0 auto;
+  position: relative;
+  bottom: 480px;
+  left: -320px;
+}
+
+.tour-1 {
+  width: 298px;
+  height: 347px;
+  background-image: linear-gradient(to bottom, rgba(255, 210, 64, 0), rgba(255, 210, 64, 0)), url(../images/tour-02.jpg);
+  margin: 0 auto;
+  position: relative;
+  bottom: 1594px;
+  left: 0px;
+}
+
+.tour-2 {
+  width: 298px;
+  height: 347px;
+  background-image: linear-gradient(to bottom, rgba(255, 210, 64, 0), rgba(255, 210, 64, 0)), url(../images/tour-05.jpg);
+  margin: 0 auto;
+  position: relative;
+  bottom: 1560px;
+  left: 0px;
+}
+
+.tour-3 {
+  width: 298px;
+  height: 347px;
+  background-image: linear-gradient(to bottom, rgba(255, 210, 64, 0), rgba(255, 210, 64, 0)), url(../images/tour-08.jpg);
+  margin: 0 auto;
+  position: relative;
+  bottom: 1518px;
+  left: 0px;
+}
+
+.tour-4 {
+  width: 298px;
+  height: 347px;
+  background-image: linear-gradient(to bottom, rgba(255, 210, 64, 0), rgba(255, 210, 64, 0)), url(../images/tour-03.jpg);
+  margin: 0 auto;
+  position: relative;
+  bottom: 2637px;
+  left: 320px;
+}
+
+.tour-5 {
+  width: 298px;
+  height: 347px;
+  background-image: linear-gradient(to bottom, rgba(255, 210, 64, 0), rgba(255, 210, 64, 0)), url(../images/tour-06.jpg);
+  margin: 0 auto;
+  position: relative;
+  bottom: 2637px;
+  left: 320px;
+}
+
+.tour-6 {
+  width: 298px;
+  height: 347px;
+  background-image: linear-gradient(to bottom, rgba(255, 210, 64, 0), rgba(255, 210, 64, 0)), url(../images/tour-09.jpg);
+  margin: 0 auto;
+  position: relative;
+  bottom: 2579px;
+  left: 320px;
+}
+
+footer {
+  /*maxwidth allows for a responsive screen*/
+  max-width: 100%;
+  font-size: 16px;
+  font-weight: "Ultra Bold" "Regular Italic";
+  height: 100px;
+  margin: 0 auto;
+  background-color: #79addc;
+  bottom: 1480px;
+  position: relative;
+}
+
+.words {
+  border-bottom: white;
+  position: relative;
+  width: 109px;
+  height: 42px;
+  border: solid 2px white;
+  left: -680px;
+  bottom: -30px;
+}
+
+.words span {
+  color: white;
+  display: flex;
+  position: relative;
+  left: -20px;
+  bottom: -10px;
+  width: 130px;
+}
+
+footer .fa {
+  padding: 11px;
+  font-size: 12px;
+  max-width: 35px;
+  text-align: center;
+  justify-items: space-around;
+  border-radius: 25%;
+}
+
+footer .fa .fa:hover {
+  opacity: 1;
+  justify-content: space-evenly;
+  position: relative;
+  width: 35px;
+}
+
+footer .fa .fa-facebook {
+  background: white;
+  color: #79addc;
+  position: relative;
+  bottom: 44px;
+  left: 1220px;
+}
+
+footer .fa .fa-instagram {
+  background: white;
+  color: #79addc;
+  position: relative;
+  bottom: 77px;
+  left: 1262px;
+}
+
+footer .fa .fa-twitter {
+  background: white;
+  color: #79addc;
+  position: relative;
+  bottom: 110px;
+  left: 1306px;
+}
+
+footer .Copyright {
+  color: white;
+  position: relative;
+  bottom: 10px;
+  left: 580px;
+  width: 500px;
+}
+
+@media (max-width: 980px) {
+  footer {
+    flex-wrap: wrap;
+    /*if you wantit t in a column as t hte site gets smaller*/
+    width: 100%;
+    margin: bottom left auto;
+    padding: 0px;
+  }
+}
+@media (max-width: 980px) {
+  nav {
+    flex-wrap: wrap;
+    /*if you wantit t in a column as t hte site gets smaller*/
+    width: 100%;
+    margin: auto;
+    padding: 0px;
+  }
+}
+* {
+  margin: 0 auto;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin-bottom: auto;
+}
+
+@font-face {
+  font-family: "SemiBold Italic";
+  src: url(fonts//GillSansReg.ttc);
+}
+.nav-wrapper {
+  background-color: none;
+  height: 80px;
+  width: 100%;
+}
+
+@media only all and (max-height: 50px) {
+  .nav-wrapper nav {
+    position: left;
+    padding: 0 30px;
+  }
+}
+@media only all and (max-width: 980px) {
+  .nav-wrapper nav {
+    padding: 0 30px;
+  }
+}
+nav {
+  position: relative;
+  max-width: 980px;
+  /*r do a width of 70%*/
+  height: 150px;
+  background-color: white;
+  margin: 0 auto;
+  border-bottom: solid 2px black;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav .logo {
+  position: relative;
+  width: 69px;
+  height: 30px;
+  border: solid 2px black;
+}
+
+nav .logo span {
+  position: relative;
+  bottom: -6px;
+  width: 80px;
+  color: black;
+  font-size: 20px;
+  font-weight: 20px;
+}
+
+nav .links {
+  width: 350px;
+  display: flex;
+  justify-content: space-around;
+}
+
+nav .links span a {
+  text-decoration: none;
+  color: black;
+}
+
+nav .links span {
+  color: #79addc;
+}
+
+.button {
+  background-color: #79addc;
+  color: white;
+  font-weight: 25px;
+  border-radius: 20px;
+  height: 40px;
+  width: 133px;
+  border-color: #79addc;
+  position: relative;
+  bottom: -120px;
+  left: 60px;
+}
+
+.hero .hero-title1 {
+  font-size: 60px;
+  text-decoration: underline;
+}
+
+.hero .hero-title2 {
+  font-size: 60px;
+  text-decoration: underline;
+}
+
+footer {
+  /*maxwidth allows for a responsive screen*/
+  max-width: 100%;
+  font-size: 16px;
+  font-weight: "Ultra Bold" "Regular Italic";
+  height: 100px;
+  margin: 0 auto;
+  background-color: #79addc;
+  bottom: -100px;
+  position: relative;
+}
+
+.words {
+  border-bottom: white;
+  position: relative;
+  width: 109px;
+  height: 42px;
+  border: solid 2px white;
+  left: -680px;
+  bottom: -30px;
+}
+
+.words span {
+  color: white;
+  display: flex;
+  position: relative;
+  left: -20px;
+  bottom: -10px;
+  width: 130px;
+}
+
+footer .fa {
+  padding: 11px;
+  font-size: 12px;
+  max-width: 35px;
+  text-align: center;
+  justify-items: space-around;
+  border-radius: 25%;
+}
+
+footer .fa .fa:hover {
+  opacity: 1;
+  justify-content: space-evenly;
+  position: relative;
+  width: 35px;
+}
+
+footer .fa .fa-facebook {
+  background: white;
+  color: #79addc;
+  position: relative;
+  bottom: 44px;
+  left: 1220px;
+}
+
+footer .fa .fa-instagram {
+  background: white;
+  color: #79addc;
+  position: relative;
+  bottom: 77px;
+  left: 1262px;
+}
+
+footer .fa .fa-twitter {
+  background: white;
+  color: #79addc;
+  position: relative;
+  bottom: 110px;
+  left: 1306px;
+}
+
+footer .Copyright {
+  color: white;
+  position: relative;
+  bottom: 10px;
+  left: 580px;
+  width: 500px;
+}
+
+@media (max-width: 980px) {
+  footer {
+    flex-wrap: wrap;
+    /*if you wantit t in a column as t hte site gets smaller*/
+    width: 100%;
+    margin: bottom left auto;
+    padding: 0px;
+  }
+}
+@media (max-width: 980px) {
+  nav {
+    flex-wrap: wrap;
+    /*if you wantit t in a column as t hte site gets smaller*/
+    width: 100%;
+    margin: auto;
+    padding: 0px;
+  }
+}
